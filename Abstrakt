@@ -1,0 +1,16 @@
+abstract class Fahrzeug {
+    Point pos = new Point(0,0);
+    abstract void bewegDich(int h, int v);
+    Point getPos() {
+        return pos;
+    }
+}
+
+
+
+
+abrstract class Motorrad extends Fahrzeug {
+  Point fahre(int h, int v) {
+  return new Point(getPos(). + h, getPos().y +v);
+  }
+ }
